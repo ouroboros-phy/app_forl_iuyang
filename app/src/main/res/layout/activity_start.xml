@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1.5">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="32dp"
+                android:text="拍立学"
+                android:id="@+id/camera"
+                android:textColor="#ffffff"
+                android:background="@drawable/buton_background"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/question"
+                android:layout_width="280dp"
+                android:layout_height="32dp"
+                android:text="知识问答"
+                android:textColor="#ffffff"
+                android:background="@drawable/buton_background"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/waxi"
+                android:layout_width="280dp"
+                android:layout_height="32dp"
+                android:text="我要学习"
+                android:textColor="#ffffff"
+                android:background="@drawable/buton_background"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

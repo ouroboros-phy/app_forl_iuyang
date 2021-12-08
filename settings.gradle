@@ -1,0 +1,4 @@
+include ':engine'
+include ':opencv'
+include ':app'
+rootProject.name = "app_forl_iuyang"
